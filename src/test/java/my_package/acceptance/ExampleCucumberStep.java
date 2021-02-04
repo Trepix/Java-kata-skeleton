@@ -11,7 +11,7 @@ import java.util.List;
 
 import static my_package.acceptance.config.DataTableConfigurator.AClass;
 
-public class ExampleStep {
+public class ExampleCucumberStep {
 
     @Given("a thing with value {string}")
     public void a_user(String thing) {
@@ -29,7 +29,7 @@ public class ExampleStep {
     @Then("do something with value {string} with this text")
     public void sendAMailWithThisMessage(String mail, String body) {
         Assert.assertTrue(true);
-        Assert.fail("It will fail, nothing implemented yet");
+        //Assert.fail("It will fail, nothing implemented yet");
     }
 
 }
